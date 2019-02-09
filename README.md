@@ -15,7 +15,7 @@ Attach to the process with id 1234, load payload.so to it address space, then re
 ```
 Attach to the process with id 1234, load payload.so to it address space, then rewrite puts GOT entry by pay_puts address, then rewrite printf GOT entry by pay_f address. Write real printf address to pay_f+49
 # Build
-1. git clone https://bitbucket.org/Undefined3102/gotredirect-dl.git && cd gotredirect
+1. git clone https://github.com/cyberfined/gotredrect-dl.git && cd gotredirect
 2. make
 
 # License
